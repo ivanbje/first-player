@@ -3,17 +3,20 @@
 <meta charset="UTF-8">
 <title>Who's first</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="dark-mode.css" id="theme-link">
 <style>
 </style>
 <script src="whoFirst.js"></script>
 <body>
+	<div class="block">
+		<div id="themediv"><input type="button" id="themebtn" class="button" value="Light mode ☀️" onclick="switchTheme()"></div>
+	</div>
+<br><br><br><br>
 
-
-<div class="">
- <h1>Who is the first player?</h1>
- <p id='firstPlayer'>Determining...</p>
-</div>
+	<div class="block">
+		<h1>The first player is:</h1>
+		<p id='firstPlayer'>Determining...</p>
+	</div>
 
 </body>
 </html>

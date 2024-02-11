@@ -8,7 +8,23 @@ sugList = [
 'The person who most recently had a taco',
 'The person who most recently had pizza',
 'The person who most recently had a hamburger',
-'The person who '
+'The youngest person',
+'The oldest person',
+'The person that most recently finished a book',
+'The person that most recently watched a movie',
+'The person that watched most tv episodes last week',
+'The person who drank the most water today',
+'The person who most recently tried a new candy',
+'The person who most recently tried a new soda',
+'The person who has visited the most countries',
+'The person who has visited the least countries',
+'The person who most recently visited another country',
+'The person who most recently played a video game',
+'The person who most recently finished a video game',
+'The person who ate most recently',
+'The person who has stayed awake the longest',
+'The person who has slept for the longest',
+'The person who is always late'
 ]
 
 
@@ -25,3 +41,22 @@ function init()
 window.addEventListener('DOMContentLoaded', () => {
     init();
 });
+
+
+function switchTheme(override)
+{
+	const theme = document.getElementById("theme-link");
+	const themeButton = document.getElementById("themebtn");
+	if (theme.getAttribute("href") == "light-mode.css" || override =='dark') {
+    // ... then switch it to "dark-theme.css"
+    theme.href = "dark-mode.css";
+    themeButton.value="Light mode ☀️";
+    try {localStorage.setItem("item-display-theme","dark");} catch(error){console.log("Error saving theme to local storage; "+error);}
+  // Otherwise...
+  } else {
+    // ... switch it to "light-theme.css"
+    theme.href = "light-mode.css";
+    themeButton.value="Dark mode 🌙";
+    try {localStorage.setItem("item-display-theme","light");} catch(error){console.log("Error saving theme to local storage; "+error);}
+  }
+}
