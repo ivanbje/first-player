@@ -17,14 +17,18 @@ sugList = [
 'The person who most recently tried a new candy',
 'The person who most recently tried a new soda',
 'The person who has visited the most countries',
-'The person who has visited the least countries',
+'The person who has visited the fewest countries',
 'The person who most recently visited another country',
 'The person who most recently played a video game',
 'The person who most recently finished a video game',
 'The person who ate most recently',
 'The person who has stayed awake the longest',
 'The person who has slept for the longest',
-'The person who is always late'
+'The person who is always late',
+'The person who has most recently played a board game',
+'The first person in alphabetical order',
+'The last person in an alphabetical order',
+'The person closest to "M" in the alphabet'
 ]
 
 
