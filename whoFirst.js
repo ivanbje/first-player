@@ -1,8 +1,8 @@
 sugList = [
 'Next person to have a birthday',
 'Last person to have a birthday',
-'The person wearing the most garments',
-'The person wearing the least garments',
+'The person wearing the most pieces of garments',
+'The person wearing the least pieces of garments',
 'The first person to wake up today',
 'The last person to wake up today',
 'The person who most recently had a taco',
