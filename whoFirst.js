@@ -28,6 +28,7 @@ sugList = [
 'The person who has most recently played a board game',
 'The first person in alphabetical order',
 'The last person in an alphabetical order',
+'Whose Zodiac is first in alphabetical order (Tiebreaker: youngest)',
 'The person closest to "M" in the alphabet'
 ]
 
